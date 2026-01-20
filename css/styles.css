@@ -307,9 +307,16 @@ p {
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
-    padding-top: 80px;
-    padding-bottom: 80px;
     overflow: hidden;
+}
+
+.hero > .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 60px;
 }
 
 .hero::before {
