@@ -302,7 +302,7 @@ p {
 /* ===== Hero Section ===== */
 .hero {
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -314,9 +314,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    padding-top: 100px;
-    padding-bottom: 60px;
+    padding-top: 80px;
 }
 
 .hero::before {
